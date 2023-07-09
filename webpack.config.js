@@ -1,7 +1,8 @@
 const path = require('path');
+const ImageMinimizerPlugin = require('image-minimizer-webpack-plugin');
 
 module.exports = {
-  mode: 'development',
+  mode: 'production',
   entry: './src/index.js',
   output: {
     filename: 'main.js',
@@ -30,6 +31,27 @@ module.exports = {
           skipEmptyLines: true,
         },
       },
+    ],
+  },
+  optimization: {
+    minimizer: [
+      new ImageMinimizerPlugin({
+        test: /\.png$/i,
+        minimizer: {
+          implementation: ImageMinimizerPlugin.imageminMinify,
+          options: {
+            plugins: [
+              [
+                'pngquant',
+                {
+                  strip: true,
+                  quality: [0.5, 0.5],
+                },
+              ],
+            ],
+          },
+        },
+      }),
     ],
   },
 };
