@@ -25,7 +25,7 @@ export default function asyncFunctions() {
 
     try {
       response = await fetch(
-        `http://api.weatherapi.com/v1/search.json?key=b5e6e8e4c72e49ba950212623230307&q=${query}`
+        `https://api.weatherapi.com/v1/search.json?key=b5e6e8e4c72e49ba950212623230307&q=${query}`
       );
       data = await response.json();
     } catch (e) {
