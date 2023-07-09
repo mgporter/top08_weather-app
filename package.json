@@ -1,0 +1,32 @@
+{
+  "name": "top08_weather-app",
+  "version": "1.0.0",
+  "description": "The Odin Project weather app project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack serve --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mgporter/top08_weather-app.git"
+  },
+  "author": "mgporter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mgporter/top08_weather-app/issues"
+  },
+  "homepage": "https://github.com/mgporter/top08_weather-app#readme",
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "csv-loader": "^3.0.5",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "date-fns": "^2.30.0"
+  }
+}

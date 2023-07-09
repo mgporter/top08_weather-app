@@ -1,0 +1,49 @@
+code,condition,icon,small_icon_day,small_icon_night
+1000,Too bright,sunny.png,small_sunny.png,small_clearnight.png
+1003,Sunburny,cloudy.png,small_cloudy_day.png,small_cloudy_night.png
+1006,Too dim,verycloudy.png,small_cloudy_day.png,small_cloudy_night.png
+1009,Dreary,verycloudy.png,small_verycloudy.png,small_verycloudy.png
+1030,Otherworldly,verycloudy.png,small_verycloudy.png,small_verycloudy.png
+1063,Wet and dreary,rainy.png,small_rainy_day.png,small_rainy_night.png
+1066,Cold and wet,snowy.png,small_snowy.png,small_snowy.png
+1069,Dangerously Icy,snowy.png,small_snowy.png,small_snowy.png
+1072,Dangerously Icy,snowy.png,small_snowy.png,small_snowy.png
+1087,Shockingly bad,lightning.png,small_rainy.png,small_rainy.png
+1114,Blizzardly,snowy.png,small_snowy.png,small_snowy.png
+1117,Blizzardly,snowy.png,small_snowy.png,small_snowy.png
+1135,Otherworldly,verycloudy.png,small_cloudy_day.png,small_cloudy_night.png
+1147,Cold and dreary,verycloudy.png,small_cloudy_day.png,small_cloudy_night.png
+1150,Wet and dreary,rainy.png,small_rainy_day.png,small_rainy_night.png
+1153,Soggy,rainy.png,small_rainy_day.png,small_rainy_night.png
+1168,Cold and wet,rainy.png,small_rainy_day.png,small_rainy_night.png
+1171,Cold and wet,rainy.png,small_rainy_day.png,small_rainy_night.png
+1180,Soggy,rainy.png,small_rainy_day.png,small_rainy_night.png
+1183,Soggy,rainy.png,small_rainy_day.png,small_rainy_night.png
+1186,Very soggy,rainy.png,small_rainy_day.png,small_rainy_night.png
+1189,Wet and dreary,rainy.png,small_rainy_day.png,small_rainy_night.png
+1192,Very soggy,rainy.png,small_rainy_day.png,small_rainy_night.png
+1195,Wet and dreary,rainy.png,small_rainy_day.png,small_rainy_night.png
+1198,Cold and wet,rainy.png,small_rainy_day.png,small_rainy_night.png
+1201,Cold and wet,rainy.png,small_rainy_day.png,small_rainy_night.png
+1204,Cold and slippery,rainy.png,small_rainy_day.png,small_rainy_night.png
+1207,Cold and slippery,rainy.png,small_rainy_day.png,small_rainy_night.png
+1210,Cold and slippery,snowy.png,small_snowy.png,small_snowy.png
+1213,Cold and slippery,snowy.png,small_snowy.png,small_snowy.png
+1216,Cancel school weather,snowy.png,small_snowy.png,small_snowy.png
+1219,Cancel school weather,snowy.png,small_snowy.png,small_snowy.png
+1222,Cancel school weather,snowy.png,small_snowy.png,small_snowy.png
+1225,Cancel school weather,snowy.png,small_snowy.png,small_snowy.png
+1237,Cold and slippery,rainy.png,small_rainy_day.png,small_rainy_night.png
+1240,On and off sogginess,rainy.png,small_rainy_day.png,small_rainy_night.png
+1243,Wet and dreary,rainy.png,small_rainy_day.png,small_rainy_night.png
+1246,Torrential,rainy.png,small_rainy_day.png,small_rainy_night.png
+1249,Cold and slippery,rainy.png,small_rainy_day.png,small_rainy_night.png
+1252,Dangerously slippery,rainy.png,small_rainy_day.png,small_rainy_night.png
+1255,Cold and slippery,snowy.png,small_snowy.png,small_snowy.png
+1258,Cancel school weather,snowy.png,small_snowy.png,small_snowy.png
+1261,Cold and slippery,rainy.png,small_rainy_day.png,small_rainy_night.png
+1264,Dangerously Icy,rainy.png,small_rainy_day.png,small_rainy_night.png
+1273,Shockingly bad,lightning.png,small_rainy.png,small_rainy.png
+1276,Shockingly bad,lightning.png,small_rainy.png,small_rainy.png
+1279,Cancel school weather,lightning.png,small_rainy.png,small_rainy.png
+1282,Cold and thundery,lightning.png,small_rainy.png,small_rainy.png
