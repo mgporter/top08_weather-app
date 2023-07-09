@@ -7,6 +7,8 @@ export default function domUpdate() {
     require.context('./icons/', false, /\.png$/i)
   );
 
+  let tempSetting;
+
   createDayAndHoursElements();
 
   function _importAll(r) {
@@ -138,10 +140,10 @@ export default function domUpdate() {
       infoBox.classList.add('info-box');
 
       const highT = document.createElement('p');
-      highT.classList.add('high-T');
+      highT.className = 'high-T temptext';
       highT.textContent = 'High: ';
       const highTSpan = document.createElement('span');
-      highTSpan.textContent = `${day.day.maxtemp_f}°F`;
+      highTSpan.textContent = tempFtoSelectedTemp(day.day.maxtemp_f);
       highT.appendChild(highTSpan);
 
       const pm25 = document.createElement('p');
@@ -152,10 +154,10 @@ export default function domUpdate() {
       pm25.appendChild(pm25Span);
 
       const lowT = document.createElement('p');
-      lowT.classList.add('low-T');
+      lowT.className = 'low-T temptext';
       lowT.textContent = 'Low: ';
       const lowTSpan = document.createElement('span');
-      lowTSpan.textContent = `${day.day.mintemp_f}°F`;
+      lowTSpan.textContent = tempFtoSelectedTemp(day.day.mintemp_f);
       lowT.appendChild(lowTSpan);
 
       const humidity = document.createElement('p');
@@ -210,7 +212,8 @@ export default function domUpdate() {
         // hourBox.setAttribute('data-hourid', hourIndex);
 
         const temp = document.createElement('p');
-        temp.textContent = `${hour.temp_f}°F`;
+        temp.className = 'temptext';
+        temp.textContent = tempFtoSelectedTemp(hour.temp_f);
 
         const image = document.createElement('img');
         let imageUrl;
@@ -308,6 +311,41 @@ export default function domUpdate() {
     loadingContainer.textContent = 'Loading...';
 
     contentContainer.appendChild(loadingContainer);
+  }
+
+  // Set the units of temperatures on first display
+  function tempFtoSelectedTemp(f) {
+    const tempToggle = document.getElementById('temp-toggle');
+
+    if (!tempToggle.checked) {
+      // If F is selected
+      return `${f}°F`;
+    } else {
+      // if C is selected
+      const temp = (((Number(f) - 32) * 5) / 9).toFixed(1);
+      return `${temp}°C`;
+    }
+  }
+
+  const tempToggle = document.getElementById('temp-toggle');
+  tempToggle.addEventListener('click', updateTempUnits);
+
+  // Convert already displayed temperatures to the other unit
+  function updateTempUnits() {
+    const tempElements = document.querySelectorAll('.temptext');
+
+    tempElements.forEach((element) => {
+      const [_, prefix, temp] =
+        element.textContent.match(/^([\D ]*)(\d*.?\d+)/);
+
+      if (tempToggle.checked) {
+        const tempInC = (((Number(temp) - 32) * 5) / 9).toFixed(1);
+        element.textContent = `${prefix}${tempInC}°C`;
+      } else {
+        const tempInF = (Number(temp) * (9 / 5) + 32).toFixed(1);
+        element.textContent = `${prefix}${tempInF}°F`;
+      }
+    });
   }
 
   function displayLoadingScreen() {

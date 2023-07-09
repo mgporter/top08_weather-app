@@ -13,14 +13,51 @@ body {
   width: 100%;
   background-color: rgb(238, 238, 238);
   border-bottom: 1px solid rgb(155, 155, 155);
-
   display: flex;
   align-items: center;
-  /* padding: 0 16px; */
 }
 
-#top-banner > p {
-  margin-left: 16px;
+#top-banner > a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 24px 0 12px;
+}
+
+#top-banner > a > img {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+#temp-toggle {
+  appearance: none;
+  width: 36px;
+  height: 20px;
+  background-color: rgb(30, 30, 30);
+  border-radius: 24px;
+  position: relative;
+}
+
+#temp-toggle::before {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  height: 14px;
+  width: 14px;
+  content: '';
+  background-color: rgb(255, 255, 255);
+  border-radius: 24px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#temp-toggle:checked::before {
+  transform: translate(16px, 0);
+}
+
+#top-banner > label {
+  margin: 0 4px;
+  font-size: 1.1rem;
 }
 
 #content-container {

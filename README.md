@@ -2,14 +2,14 @@
 
 The Odin Project Weather app project from https://www.theodinproject.com/lessons/node-path-javascript-weather-app
 
-Concepts:
+Concepts used:
 
-1. Asynchronous functions to retreive data from API
+1. Uses asynchronous functions to retreive data from an API. Fires off custom events to inform the DOM module to update the view based on program state (data loading, data retrieval, change of display units, etc).
 
-2. Autocomplete box that updates on input with data retreieved from API
+2. Implements autocomplete functionality for locations based on API queries.
 
-3. Custom built slider to display weather data per hour using the requestAnimationFrame method. Slider has a decelleration effect by saving the last known change in position before mouse release, and then continually adding that to the slider's position (in descreasing amounts) after mouse release.
+3. Custom built slider displays hourly weather data. Elements in the slider fade in and out by finding the relative position of each element (the 'hour-box'), and calculating its opacity based on its distance from the horizontal center of the screen.
 
-4. Slider fadein/fadeout effect: Algorithm that finds the position of each hour-box in the slider and computes its opacity based on where it is in the slider.
+4. The slider uses the requestAnimationFrame method to create a deceleration effect after being dragged by the mouse by saving a value for the velocity of the slider at mouse release. It then continually adds that value to the slider's position while also decreasing it slowly.
 
-5. The slider, again: clicking on a day-box moves the slider automatically to that day. Since this movement cannot be done with CSS animations (because of the extra opacity calculations--see above), I manually implemented an ease-in-ease-out movement effect from a parametric equation.
+5. The slider also moves automatically when the user clicks on a day. Because of the opacity calculations, this movement cannot be done with CSS transitions. Instead, it it implemented manually using requestAnimationFrame and a parametric equation to create an ease-in-ease-out movement effect to the desired coordinates.
