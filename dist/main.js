@@ -4071,6 +4071,7 @@ function asyncFunctions() {
         `https://api.weatherapi.com/v1/forecast.json?key=b5e6e8e4c72e49ba950212623230307&q=${query}&days=3&aqi=yes&alerts=no`
       );
       data = await response.json();
+	console.log(data)
       document.dispatchEvent(new Event('hideLoading'));
     } catch (e) {
       console.log(e);
