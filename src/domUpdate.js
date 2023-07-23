@@ -146,12 +146,12 @@ export default function domUpdate() {
       highTSpan.textContent = tempFtoSelectedTemp(day.day.maxtemp_f);
       highT.appendChild(highTSpan);
 
-      const pm25 = document.createElement('p');
-      pm25.classList.add('pm25');
-      pm25.textContent = 'PM 2.5: ';
-      const pm25Span = document.createElement('span');
-      pm25Span.textContent = Math.floor(day.day.air_quality.pm2_5);
-      pm25.appendChild(pm25Span);
+      const wind = document.createElement('p');
+      wind.classList.add('wind');
+      wind.textContent = 'Wind: ';
+      const windSpan = document.createElement('span');
+      windSpan.textContent = `${day.day.maxwind_mph}mph`;
+      wind.appendChild(windSpan);
 
       const lowT = document.createElement('p');
       lowT.className = 'low-T temptext';
@@ -188,7 +188,7 @@ export default function domUpdate() {
 
       percipitation.appendChild(percipitationSpan);
 
-      infoBox.append(highT, pm25, lowT, humidity, uvIndex, percipitation);
+      infoBox.append(highT, wind, lowT, humidity, uvIndex, percipitation);
       dayPane.append(condition, date, image, infoBox);
       dayPaneContainer.appendChild(dayPane);
     }

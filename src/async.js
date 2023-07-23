@@ -7,7 +7,7 @@ export default function asyncFunctions() {
       document.dispatchEvent(new Event('hideData'));
       document.dispatchEvent(new Event('showLoading'));
       response = await fetch(
-        `https://api.weatherapi.com/v1/forecast.json?key=b5e6e8e4c72e49ba950212623230307&q=${query}&days=3&aqi=yes&alerts=no`
+        `https://api.weatherapi.com/v1/forecast.json?key=b5e6e8e4c72e49ba950212623230307&q=${query}&days=3&alerts=no`
       );
       data = await response.json();
       document.dispatchEvent(new Event('hideLoading'));
