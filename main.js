@@ -976,7 +976,7 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
-/***/ 519:
+/***/ 217:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var map = {
@@ -1018,7 +1018,7 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 519;
+webpackContext.id = 217;
 
 /***/ }),
 
@@ -1026,7 +1026,7 @@ webpackContext.id = 519;
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "26cb2bcb3f7b11fe71f5.png";
+module.exports = __webpack_require__.p + "a335e474a8a62c12277a.png";
 
 /***/ }),
 
@@ -1034,7 +1034,7 @@ module.exports = __webpack_require__.p + "26cb2bcb3f7b11fe71f5.png";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "cd38e189dbd634baed58.png";
+module.exports = __webpack_require__.p + "123f23e4ada27059716a.png";
 
 /***/ }),
 
@@ -1042,7 +1042,7 @@ module.exports = __webpack_require__.p + "cd38e189dbd634baed58.png";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "cd92c6ee52a03ed55aa7.png";
+module.exports = __webpack_require__.p + "cd2913654cd723a0dda9.png";
 
 /***/ }),
 
@@ -1050,7 +1050,7 @@ module.exports = __webpack_require__.p + "cd92c6ee52a03ed55aa7.png";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "42c2a542cc2d1922bae2.png";
+module.exports = __webpack_require__.p + "ba8aa0d01649cd90407c.png";
 
 /***/ }),
 
@@ -1058,7 +1058,7 @@ module.exports = __webpack_require__.p + "42c2a542cc2d1922bae2.png";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "7fe24e575c2eec6ca9df.png";
+module.exports = __webpack_require__.p + "fbf1b4ccfa036625839f.png";
 
 /***/ }),
 
@@ -1066,7 +1066,7 @@ module.exports = __webpack_require__.p + "7fe24e575c2eec6ca9df.png";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "25858b74c94877fbffd8.png";
+module.exports = __webpack_require__.p + "e4624be051a3cf51b45f.png";
 
 /***/ }),
 
@@ -1074,7 +1074,7 @@ module.exports = __webpack_require__.p + "25858b74c94877fbffd8.png";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "9221582a93911dd59179.png";
+module.exports = __webpack_require__.p + "66e05b633dd653dd5847.png";
 
 /***/ }),
 
@@ -1082,7 +1082,7 @@ module.exports = __webpack_require__.p + "9221582a93911dd59179.png";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "4319ac8057811f98e558.png";
+module.exports = __webpack_require__.p + "bdf5a574b95772a0968c.png";
 
 /***/ }),
 
@@ -1090,7 +1090,7 @@ module.exports = __webpack_require__.p + "4319ac8057811f98e558.png";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "2a53d15b117b26833b74.png";
+module.exports = __webpack_require__.p + "084051943fba587e2cd4.png";
 
 /***/ }),
 
@@ -1098,7 +1098,7 @@ module.exports = __webpack_require__.p + "2a53d15b117b26833b74.png";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "5eaf4d6dd8dfebb8d18f.png";
+module.exports = __webpack_require__.p + "a5bba82e94294a837d1b.png";
 
 /***/ }),
 
@@ -1106,7 +1106,7 @@ module.exports = __webpack_require__.p + "5eaf4d6dd8dfebb8d18f.png";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "417ec13c6b73f86ba3e5.png";
+module.exports = __webpack_require__.p + "cb1336843b89b22d30a7.png";
 
 /***/ }),
 
@@ -1114,7 +1114,7 @@ module.exports = __webpack_require__.p + "417ec13c6b73f86ba3e5.png";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "ebcde96f3a75d4ab19cf.png";
+module.exports = __webpack_require__.p + "b222f882a3419f2b5a9c.png";
 
 /***/ }),
 
@@ -1122,7 +1122,7 @@ module.exports = __webpack_require__.p + "ebcde96f3a75d4ab19cf.png";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "b3d689423848cfaf49b9.png";
+module.exports = __webpack_require__.p + "9092a3d345514a26ea19.png";
 
 /***/ }),
 
@@ -1130,7 +1130,7 @@ module.exports = __webpack_require__.p + "b3d689423848cfaf49b9.png";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "b7c3a689f0eacd3e9949.png";
+module.exports = __webpack_require__.p + "f3ccfe2f992acb854bac.png";
 
 /***/ }),
 
@@ -1138,7 +1138,7 @@ module.exports = __webpack_require__.p + "b7c3a689f0eacd3e9949.png";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "a9534ce91ec27ac59e10.png";
+module.exports = __webpack_require__.p + "d44bfc30a7449d88812a.png";
 
 /***/ }),
 
@@ -1146,7 +1146,7 @@ module.exports = __webpack_require__.p + "a9534ce91ec27ac59e10.png";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "b4acac9efcfc10399199.png";
+module.exports = __webpack_require__.p + "a1e3e8b14988ba9581eb.png";
 
 /***/ }),
 
@@ -1154,7 +1154,7 @@ module.exports = __webpack_require__.p + "b4acac9efcfc10399199.png";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "8405925c89edbe24a7a6.png";
+module.exports = __webpack_require__.p + "d0d1a2ae76e9276070be.png";
 
 /***/ }),
 
@@ -1162,7 +1162,7 @@ module.exports = __webpack_require__.p + "8405925c89edbe24a7a6.png";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "dca3a82ff04275a5d593.png";
+module.exports = __webpack_require__.p + "75d1cf2091a3597db7d0.png";
 
 /***/ }),
 
@@ -1170,7 +1170,7 @@ module.exports = __webpack_require__.p + "dca3a82ff04275a5d593.png";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "d529258a8b833e5f7e85.png";
+module.exports = __webpack_require__.p + "843dbc5fbc34ee6261f4.png";
 
 /***/ })
 
@@ -3670,7 +3670,7 @@ function cleanEscapedString(input) {
 function domUpdate() {
   const weatherConditions = _arrayToObject((weather_conditions_default()), 'code');
   const weatherIcons = _importAll(
-    __webpack_require__(519)
+    __webpack_require__(217)
   );
 
   let tempSetting;
@@ -3812,12 +3812,12 @@ function domUpdate() {
       highTSpan.textContent = tempFtoSelectedTemp(day.day.maxtemp_f);
       highT.appendChild(highTSpan);
 
-      const pm25 = document.createElement('p');
-      pm25.classList.add('pm25');
-      pm25.textContent = 'PM 2.5: ';
-      const pm25Span = document.createElement('span');
-      pm25Span.textContent = Math.floor(day.day.air_quality.pm2_5);
-      pm25.appendChild(pm25Span);
+      const wind = document.createElement('p');
+      wind.classList.add('wind');
+      wind.textContent = 'Wind: ';
+      const windSpan = document.createElement('span');
+      windSpan.textContent = `${day.day.maxwind_mph}mph`;
+      wind.appendChild(windSpan);
 
       const lowT = document.createElement('p');
       lowT.className = 'low-T temptext';
@@ -3854,7 +3854,7 @@ function domUpdate() {
 
       percipitation.appendChild(percipitationSpan);
 
-      infoBox.append(highT, pm25, lowT, humidity, uvIndex, percipitation);
+      infoBox.append(highT, wind, lowT, humidity, uvIndex, percipitation);
       dayPane.append(condition, date, image, infoBox);
       dayPaneContainer.appendChild(dayPane);
     }
@@ -4068,10 +4068,9 @@ function asyncFunctions() {
       document.dispatchEvent(new Event('hideData'));
       document.dispatchEvent(new Event('showLoading'));
       response = await fetch(
-        `https://api.weatherapi.com/v1/forecast.json?key=b5e6e8e4c72e49ba950212623230307&q=${query}&days=3&aqi=yes&alerts=no`
+        `https://api.weatherapi.com/v1/forecast.json?key=b5e6e8e4c72e49ba950212623230307&q=${query}&days=3&alerts=no`
       );
       data = await response.json();
-	console.log(data)
       document.dispatchEvent(new Event('hideLoading'));
     } catch (e) {
       console.log(e);
